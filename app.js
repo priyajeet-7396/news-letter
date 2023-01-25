@@ -35,7 +35,7 @@ app.post("/",function(req,res){
     const url = "https://us21.api.mailchimp.com/3.0/lists/f501a06791";
     const options = {
         method: "post",
-        auth: "priyajeet:3c8163b9c6d21ea958fcbf24db5e5898-us21"
+        auth: "priyajeet:bd42889cbd12ff7be5f8785be02de725-us21"
     }
 
     const request =  https.request(url,options, function(response){
@@ -71,6 +71,6 @@ app.listen(process.env.PORT || 3000, function() {
 
 
 // api key
-// 3c8163b9c6d21ea958fcbf24db5e5898-us21
+// bd42889cbd12ff7be5f8785be02de725-us21
 // audience id
 // f501a06791
